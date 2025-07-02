@@ -1,4 +1,6 @@
-for (let n=1; n<=1000; n++) {
+const max_n = Number(process.argv[2]);
+
+for (let n=1; n<=max_n; n++) {
     	var txt = [];
 	if (n%3 == 0) {txt.push("Fizz");}
    	if (n%13 == 0) {txt.push("Fezz")}
